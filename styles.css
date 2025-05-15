@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  color: #2b6cb0;
+}
+p, ul, li {
+  color: #4a5568;
+  font-size: 16px;
+  text-align: left;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #3182ce;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.chat-box {
+  border: 1px solid #ccc;
+  height: 300px;
+  overflow-y: scroll;
+  padding: 10px;
+  background: white;
+  margin-bottom: 10px;
+}
